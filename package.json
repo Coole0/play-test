@@ -1,16 +1,20 @@
 {
-  "name": "xw-cool",
+  "name": "app-task",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "xw <xiongwei@xiongweidembp>",
+  "author": "zxy <136297793@qq.com>",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js --host 0.0.0.0",
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.19.0",
+    "js-md5": "^0.7.3",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
